@@ -5,4 +5,4 @@ project(PLAYGROUND)
 
 # add the executable
 
-add_executable(asm_explore src/cpp/asm_explore.cpp)
+add_executable(asm_explore src/cpp_demo/asm_explore.cpp)

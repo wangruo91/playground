@@ -1,6 +1,8 @@
 build
 .vscode
 .venv
+/third_party
+/temp
 
 # Prerequisites
 *.d
