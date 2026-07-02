@@ -10,7 +10,7 @@ client = OpenAI(
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 completion = client.chat.completions.create(
-    model="qwen3.6-plus",
+    model="qwen3.7-max",
     messages=[{'role': 'user', 'content': '你是谁？'}]
 )
 print(completion.choices[0].message.content)
